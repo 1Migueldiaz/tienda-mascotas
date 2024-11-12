@@ -1,0 +1,36 @@
+/* src/components/Register.css */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s, transform 0.3s; 
+    width: 100%; 
+}
+
+button:hover {
+    background-color: #45a049; /* Color de fondo más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+button:focus {
+    outline: none; /* Elimina el contorno del botón al hacer clic */
+}
+
+/* Estilo específico para el botón de Registrarse */
+button[type="submit"] {
+    margin-bottom: 10px; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+div {
+    margin-bottom: 10px;
+}
